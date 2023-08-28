@@ -1,0 +1,5 @@
+A = float(format(float(input()), ".1f"))
+B = float(format(float(input()), ".1f"))
+C =  float(format(float(input()), ".1f"))
+D = ((A * 2) + (B * 3) + (C * 5))  / (2 + 3 + 5)
+print("MEDIA = %.1f" %D)

@@ -1,0 +1,5 @@
+name = input()
+salary = float(format(float(input()),".2f"))
+sales = float(format(float(input()),".2f"))
+fsalary = salary + (sales * 0.15)
+print("TOTAL = R$ %.2f" %fsalary)
